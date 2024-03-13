@@ -5,15 +5,15 @@ lua require('plugs.nerdtree')
 lua require('plugs.coc')
 set encoding=UTF-8
 
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-  :exe '!curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
-              \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  au VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
+" if empty(glob('~/.config/nvim/autoload/plug.vim'))
+"   :exe '!curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
+"               \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+"   au VimEnter * PlugInstall --sync | source $MYVIMRC
+" endif
 
-=======================
-==== plugins begin ====
-=======================
+"=======================
+"==== plugins begin ====
+"=======================
 
 call plug#begin()
 
